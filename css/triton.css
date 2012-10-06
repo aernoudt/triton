@@ -1,5 +1,21 @@
 body {
   padding-top: 40px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 10px;
+}
+
+.triton-information-sidenav .icon-chevron-right {
+  float: right;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .25;
+}
+.triton-information-sidenav a:hover .icon-chevron-right {
+  opacity: .5;
+}
+.triton-information-sidenav {
+  position: fixed;
+  left: 10px;
+  top: 100px;
+  width: 20%;
 }
